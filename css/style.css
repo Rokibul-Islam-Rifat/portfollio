@@ -75,6 +75,21 @@ html {
     background-position: right;
 }
 
+.middel-content-part h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.middel-content-part h3 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-color {
+    color: lightsalmon;
+}
+
 .image-area {
     width: 350px;
 }
