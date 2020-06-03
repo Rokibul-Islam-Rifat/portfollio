@@ -1,8 +1,158 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
+
+/* header-part start */
+
+.header-part {
+    background: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color {
+    color: orange;
+}
+
+.my-cintent {
+    padding-top: 30px;
+}
+
+.my-cintent h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.my-cintent h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.my-cintent p {
+    width: 94%;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.main-img {
+    width: 400px;
+    padding-top: 30px;
+}
+
+.btn-custom {
+    padding: 6px 20px;
+    border-radius: 0;
+    background: #FB6B58;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+
+
+/* middel part start */
+
+.meddel-part {
+    padding: 90px;
+    background: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image-area {
+    width: 350px;
+}
+
+.btn-custom-2 {
+    padding: 6px 20px;
+    border-radius: 0;
+    background: #FB6B58;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btn-custom-2:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+
+
+/* middel part end */
+
+
+/* last part start */
+
+.experience-part {
+    background: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    ;
+    padding: 80px;
+}
+
+.title h2 {
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.left-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.right-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.left-part h2,
+.right-part h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.left-part h3,
+.right-part h3 {
+    font-size: 16px;
+    color: orange;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#right-borber {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(27, 75, 121), rgb(0, 2, 128));
+    border-image-slice: 1;
+}
+
+
+/* last part end */
