@@ -1,38 +1,119 @@
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
+
+@media (max-width: 320px) {
+    .my-cintent {
+        text-align: center;
+    }
+    .main-img {
+        width: 285px;
+        padding-left: 0px;
+    }
+    .image-area {
+        width: 253px;
+    }
+    .middel-content-part {
+        text-align: center;
+    }
+    .meddel-part {
+        padding: 5px;
+    }
+    .middel-content-part p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .right-part {
+        margin-top: 30px;
+    }
+    .experience-part {
+        padding: 60px;
+    }
+    .title h2 {
+        margin-bottom: 110px;
+        padding-right: 27px;
+    }
+    .left-part {
+        margin: -72px;
+    }
+    .right-part {
+        margin-top: 100px;
+        margin-right: -70px;
+        margin-left: -73px;
+    }
+}
+
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .my-cintent {
+        text-align: center;
+    }
+    .main-img {
+        width: 450px;
+        padding-left: 48px;
+    }
+    .image-area {
+        width: 315px;
+        padding-left: 0px;
+    }
+    .middel-content-part {
+        text-align: center;
+    }
+    .right-part {
+        margin-top: 30px;
+    }
+}
+
 
 /*Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link {
-	text-align: center;
-}
-    .navbar-light .navbar-nav .nav-link::after {
-	width: 12%;
-}
+    .my-cintent {
+        text-align: center;
+    }
+    .main-img {
+        width: 545px;
+        padding-left: 145px;
+    }
+    .image-area {
+        width: 500px;
+        padding-left: 118px;
+    }
+    .middel-content-part {
+        text-align: center;
+    }
+    .right-part {
+        margin-top: 30px;
+    }
 }
 
-/*Large devices (desktops, 992px and up)*/
+
+/* Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .team_arrow_left {
-        left: 22%;
+    .my-cintent {
+        padding-left: 50px;
     }
-
-    .team_arrow_right {
-        right: 21%;
+    .my-cintent p {
+        width: 100%;
     }
-
-    .footer_top_right ul li {
-        margin-right: 8px;
+    .main-img {
+        padding-top: 70px;
+        padding-right: 90px;
     }
-
-    .footer_top_right .bg-color {
-        padding: 18px 16px;
+    .image-area {
+        width: 265px;
+        padding-top: 74px;
+        padding-right: 9px;
     }
-
+    .middel-content-part p {
+        font-size: 18px;
+        width: 95%;
+        text-align: justify;
+    }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {}
